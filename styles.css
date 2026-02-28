@@ -1,0 +1,136 @@
+/* ===== BASE ===== */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f5f2ee;
+    margin: 0;
+    color: #333;
+}
+
+/* ===== TOP BAR ===== */
+
+.top-bar {
+    background: #7b5e50;
+    padding: 8px;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+/* ===== BRAND HEADER ===== */
+
+.brand-logo-img {
+    width: 70px;
+    height: auto;
+}
+
+.brand-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    color: #7b5e50;
+    letter-spacing: 1px;
+}
+
+.brand-subtitle {
+    font-size: 0.95rem;
+    color: #555;
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.4;
+}
+
+/* ===== NAV LINKS ===== */
+
+.nav-link {
+    font-weight: 500;
+    color: #7b5e50 !important;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #c0392b !important;
+}
+
+/* ===== CATEGORIES ===== */
+
+.categories {
+    background: #e9e3dc;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.circle {
+    width: 75px;
+    height: 75px;
+    background: #7b5e50;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: white;
+    margin: 0 auto 10px;
+    transition: 0.3s ease;
+}
+
+.circle:hover {
+    transform: scale(1.1);
+    background: #c0392b;
+}
+
+.cat-item p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 0.95rem;
+    color: #333;
+}
+
+/* ===== PRODUCT GRID ===== */
+
+.product-img {
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.product-img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+/* ===== ABOUT ===== */
+
+.about-section {
+    background: #f0ebe6;
+}
+
+.about-section h3 {
+    font-family: 'Playfair Display', serif;
+    color: #7b5e50;
+    margin-bottom: 30px;
+}
+
+.about-img {
+    border-radius: 10px;
+    transition: 0.3s ease;
+}
+
+.about-img:hover {
+    transform: scale(1.03);
+}
+
+/* ===== CTA ===== */
+
+.cta {
+    background: #c0392b;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+/* ===== FOOTER ===== */
+
+footer {
+    background: #ffffff;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+    color: #555;
+    padding: 15px 0;
+}
